@@ -1,0 +1,250 @@
+
+* {
+block-size: border-box;
+margin: 0px;
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EAEDED;
+  }
+
+main{
+  padding: 2rem 2rem;
+  box-sizing: border-box;
+  }
+
+
+
+/* header */
+
+.a-page {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+#top-logo {
+  background: #222F3E;
+  height: 45px;
+}
+
+.logo-amz {
+  width: 100px;
+  padding: 5px;
+}
+
+.bottom-bar {
+  background: #354758;
+  height: 30px;
+}
+
+.bottom-bar a {
+  font-size: .85rem;
+  padding: 0 1rem;
+  color: white;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+
+
+/* organge-Bar */
+
+.orange-bar {
+  background: #F56600;
+  text-align: center;
+  padding: .50rem 0;
+}
+
+.orange-bar span {
+  color: white;
+  font-size: .85rem;
+}
+
+
+/* green-box*/
+
+.green-box {
+  height: 120px;
+  background-image: url("bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.green-box h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  padding-top: 2rem ;
+}
+
+.green-box h4 {
+  font-size: .7rem;
+  margin-top: 20px;
+}
+
+/* image-gallery */
+
+.img-gallery {
+  margin-top: 1rem;
+  text-align: center;
+  background-color: white;
+  padding: .8rem 1rem 1rem ;
+}
+
+.img-gallery .images-1{
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-gallery img {
+  height: 20vh;
+  width: 23%;
+  border-radius: 5px;
+  display: inline;
+  box-shadow: 4px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* img-gallery-2 */
+
+.img-gallery-2 {
+  display: flex;
+  justify-content:space-between;
+}
+
+.text-img  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.small-gallery {
+  margin-top: 2rem;
+  max-width: 24%;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+}
+
+.small-gallery p {
+  font-size: .85rem;
+  font-weight: 800;
+  padding: 1rem 1rem 0 1rem;
+  text-align: left;
+  width: auto;
+}
+
+.text-img span {
+  font-size: .8rem;
+  font-weight: 400;
+  padding: .5rem 1rem 0 1rem;
+}
+
+.small-gallery img {
+  margin: 10px 5px 0px 5px;
+  height: 100%;
+  width: 10vw;
+}
+
+.img-display-1 {
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* padding: auto; */
+}
+
+
+.small-gallery a {
+  text-align: left;
+}
+
+
+
+* p {
+  font-weight: 600;
+  font-size: .9rem;
+  text-align: left;
+  margin-bottom: .7rem;
+}
+
+* p  a{
+  font-weight: 800;
+  font-size: .7rem;
+  color: rgb(0, 110, 169);
+  margin-left: .6rem;
+}
+
+.small-gallery a:link, .small-gallery a:visited{
+  font-weight: 400;
+  font-size: .8rem;
+  color: rgb(0, 110, 169);
+  margin-left: .6rem;
+  text-align: left;
+}
+
+
+
+
+
+/* ambient-img */
+
+.ambient-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 30px 0px 10px;
+  text-align: center;
+}
+
+
+.ambient-bottom>:first-child {
+  background-image: url("img_9.png");
+}
+
+.ambient-bottom>:nth-child(3){
+  background-image: url("img_10.png");
+}
+
+.ambient-bottom p {
+  text-align: center;
+}
+
+.back-top {
+  background-color: #354758;
+  height: 40px;
+  text-align: center;
+  padding-top: 1.2rem;
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+#back-to-top {
+  color: white;
+  opacity: .8;
+}
+
+footer {
+  background-color: #222F3E;
+  height: 150px;
+  text-align: center;
+}
+
+footer img {
+  height: 50px;
+  margin-top:50px;
+}
