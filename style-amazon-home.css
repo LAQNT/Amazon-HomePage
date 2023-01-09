@@ -128,10 +128,11 @@ main{
 
 .small-gallery {
   margin-top: 2rem;
-  width: 350px;
+  width: 22%;
   min-height: 270px;
   background-color: white;
   padding: 20px ;
+
 }
 
 .img-display-1 {
@@ -168,6 +169,7 @@ main{
 .small-gallery img {
   height: 12vh;
   width: 8vw;
+  object-fit: cover;
 }
 
 
